@@ -46,7 +46,7 @@ export function App() {
     [fgRef]
   );
   const tooltipText = node => {
-    return `<div class="chart-tooltip"><b>Name:</b> ${node.id}</div>`;
+    return `<div class="chart-tooltip" style="background-color: ${state.nodeColor};"><b>Name:</b> ${node.id}</div>`;
   };
 
   return (
